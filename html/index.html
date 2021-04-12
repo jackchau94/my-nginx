@@ -11,7 +11,7 @@
       var openApp = function() {
         //             location.assign("googlemaps://");
         if (isAndroid) {
-          window.location.replace('https://redirect.jackchau.com/test');
+          window.location.replace('https://redirect.jackchau.com');
         } else {
           window.location.replace("googlemaps://");
         }
@@ -28,7 +28,7 @@
 
   <body>
     <a href="googlemaps://">Directly Open App(iOS)</a>
-    <a href="https://redirect.jackchau.com/test">Directly Open App(AOS)</a>
+    <a href="https://redirect.jackchau.com">Directly Open App(AOS)</a>
     <br />
     <button onclick="triggerAppOpen()">triggerAppOpen</button>
 
